@@ -1,0 +1,77 @@
+2022-08-17_17-41-56 [restartedMain] INFO  c.p.a.AuthorizationServiceApplication - Starting AuthorizationServiceApplication using Java 12.0.1 on DESKTOP-LDBLESK with PID 18552 (F:\CTS-Training\FSE0 JAVA\896965-Pension-Management-System\authorization-service\target\classes started by Lenovo in F:\CTS-Training\FSE0 JAVA\896965-Pension-Management-System\authorization-service)
+2022-08-17_17-41-56 [restartedMain] INFO  c.p.a.AuthorizationServiceApplication - No active profile set, falling back to default profiles: default
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-08-17_17-41-56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-08-17_17-41-56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-17_17-41-56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-17_17-41-56 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3735 ms
+2022-08-17_17-41-56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-17_17-41-56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-17_17-41-56 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-17_17-41-56 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-17_17-41-56 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-17_17-41-56 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-17_17-41-56 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bb775dc, org.springframework.security.web.context.SecurityContextPersistenceFilter@133d54c1, org.springframework.security.web.header.HeaderWriterFilter@cb0f97b, org.springframework.security.web.authentication.logout.LogoutFilter@53ffce9d, com.pms.auth.config.JwtRequestFilter@4371a785, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c520642, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70206e26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@407d17b2, org.springframework.security.web.session.SessionManagementFilter@5d2c1fcc, org.springframework.security.web.access.ExceptionTranslationFilter@3ac3447b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@144b1443]
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-17_17-41-56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2022-08-17_17-41-56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2022-08-17_17-41-56 [restartedMain] INFO  c.p.a.AuthorizationServiceApplication - Started AuthorizationServiceApplication in 9.533 seconds (JVM running for 10.426)
+2022-08-17_17-41-56 [http-nio-8400-exec-6] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-17_17-41-56 [http-nio-8400-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-17_17-41-56 [http-nio-8400-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.c.JwtAuthenticationController - Usernameadmin
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.c.JwtAuthenticationController - Passwordadmin
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.c.JwtAuthenticationController - Username: admin
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.c.JwtAuthenticationController - Authentication Successful.....
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.c.JwtAuthenticationController - UsernamePasswordAuthenticationToken [Principal=com.pms.auth.model.MyUserDetails@524c22df, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.c.JwtAuthenticationController - com.pms.auth.model.MyUserDetails@47f98cbf
+2022-08-17_17-41-56 [http-nio-8400-exec-8] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-9] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-10] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-1] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-2] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-4] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-5] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-6] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-9] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-10] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-1] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-2] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.c.JwtAuthenticationController - Usernameadmin
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.c.JwtAuthenticationController - Passwordadmin
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.c.JwtAuthenticationController - Username: admin
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.c.JwtAuthenticationController - Authentication Successful.....
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.c.JwtAuthenticationController - UsernamePasswordAuthenticationToken [Principal=com.pms.auth.model.MyUserDetails@467e8e36, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.c.JwtAuthenticationController - com.pms.auth.model.MyUserDetails@512d2158
+2022-08-17_17-41-56 [http-nio-8400-exec-4] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-5] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-6] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-8] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-9] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-10] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-1] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-2] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-3] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-4] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-5] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-6] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-7] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-8] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
+2022-08-17_17-41-56 [http-nio-8400-exec-9] INFO  c.p.a.service.MyUserDetailsService - User with username admin found
